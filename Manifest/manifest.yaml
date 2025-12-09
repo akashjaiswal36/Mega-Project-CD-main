@@ -134,7 +134,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: ajs3ra8/megarproject-bankapp:v20
+        image: ajs3ra8/bankapp101225:v20
         resources:
           requests:
             memory: "256Mi"
