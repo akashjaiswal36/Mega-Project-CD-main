@@ -4,8 +4,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    needs: build   # or needs: update-manifest if separate job
-
     steps:
       - name: Checkout CD repo
         uses: actions/checkout@v4
