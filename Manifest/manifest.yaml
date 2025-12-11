@@ -178,7 +178,7 @@ metadata:
   name: bankapp-service
   namespace: webapps
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   ports:
   - port: 80
     targetPort: 8080
